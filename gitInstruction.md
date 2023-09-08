@@ -43,7 +43,19 @@ modified – это новый файл или сделаны изменения
 * git branch
 * git branch branch_name
 * git checkout branch_name
+* git branch -d branch_name
+* git branch -D branch_name
+* git merge branch_name
 * git log --graph
+
+1. git branch - посмотреть список веток в репозитории, при этом * обозначена та ветка, в которой находимся в данный момент
+2. git branch branch_name - создать новую ветку
+3. git checkout branch_name - переход к другой ветке
+4. git branch -d branch_name - безопасное удаление ветки (в случае, если удаляемая ветка не до конца слита с основной master, то git скажет об ошибке)
+5. git branch -d branch_name - окончательное удаление ветки
+6. git merge branch_name - слияние двух веток (см. параграф **Работа с конфликтами**)
+7. git log --graph - вывод в Терминал журнала, где показана работа нескольких веток
+
 
 ##  Работа с изображениями 
 
