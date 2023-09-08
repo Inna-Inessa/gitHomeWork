@@ -1,0 +1,10 @@
+# Инструкция по работе с Git
+
+## Семинар 2
+
+### Основные команды по работе с ветками в Git
+
+* git branch
+* git branch branch_name
+* git checkout branch_name
+* git log --graph
